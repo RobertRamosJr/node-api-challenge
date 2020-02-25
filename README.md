@@ -38,15 +38,25 @@ Commit your code regularly and use descriptive messages. This helps both you (in
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
-- [ ] Mention two parts of Express that you learned about this week.
+- [x] Mention two parts of Express that you learned about this week.
 
-- [ ] Describe Middleware?
+    Middle wear and Express router
 
-- [ ] Describe a Resource?
+- [x] Describe Middleware?
 
-- [ ] What can the API return to help clients know if a request was successful?
+    Middleware is any code which intercepts any incoming requests, modifies it in some way and then returns it to us. In the case of our projects over the past week, we implemented logging middleware which gave us information on the user's request, IP address, time of the request and the method used. 
 
-- [ ] How can we partition our application into sub-applications?
+- [x] Describe a Resource?
+
+    A Resource, in the context of NodeJS, refers to a database or any bank of data we'd like to interact with as users.
+
+- [x] What can the API return to help clients know if a request was successful?
+
+    The API can return a status code in addition to the requested resource. The status code lets the client know which type of request it was and to serve up the appropriate response.
+
+- [x] How can we partition our application into sub-applications?
+
+    Routers are the tool used to serve up the appropriate content by type. For example, in this project, we'll be creating different routes for Projects and Actions. Each of those will be accessed by using a different endpoint to ensure that our resources are connected one-to-one with requests.
 
 ## Minimum Viable Product
 
