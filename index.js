@@ -15,7 +15,7 @@ Go code!
 
 const express = require('express')
 const helmet = require('helmet')
-const logger = require('./middleware/logger')
+const logger = require('./data/middleware/logger')
 const app = express()
 
 // const logger = require('./middleware/logger')

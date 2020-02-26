@@ -1,5 +1,5 @@
-const actionData = require('../data/helpers/actionModel')
-const projectData = require('../data/helpers/projectModel')
+const actionData = require('../helpers/actionModel')
+const projectData = require('../helpers/projectModel')
 
 
 const validateAction = () => (req, res, next) => {

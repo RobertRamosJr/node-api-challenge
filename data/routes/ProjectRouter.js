@@ -1,6 +1,6 @@
 const express = require('express')
 const data = require('../helpers/projectModel')
-const { validateProject, validateProjectId } = require('../../middleware/validation')
+const { validateProject, validateProjectId } = require('../middleware/validation')
 
 const router = express.Router();
 

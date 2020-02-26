@@ -6,7 +6,7 @@ const {
     validateProjectId,
     validateAction,
     validateActionId
-} = require('../../middleware/validation')
+} = require('../middleware/validation')
 
 const router = express.Router({ mergeParams: true });
 
